@@ -1,6 +1,7 @@
 #summary Brief overview of how the translator works
 
 = Theory of Operation =
+----
 
 Most josticks today are made with potentiometers. The potentiometer will output a voltage proportional to the amount a joystick is pushed. [http://en.wikipedia.org/wiki/Potentiometer Potentiomers on Wikipedia]
 

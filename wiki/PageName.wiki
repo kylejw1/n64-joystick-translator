@@ -6,12 +6,14 @@ Most josticks today are made with potentiometers. The potentiometer will output 
 
 However, the N64 joystick works in a different way, using two rotary encoders. This is essentially the same as the way ball computer mice work (though they have all but died out). [http://en.wikipedia.org/wiki/Rotary_encoder Rotary Encoders on Wikipedia]
 
+== Code Flow ==
+
 To successfully swap the rotary style joystick with the potentiometer style joysticks, the potentiometer voltages must be translated into rotary encoder-esque signals. This is accomplished with a simple microcontroller following the following flow: (only one axis is shown, in reality everything here happens twice for two dimensions)
 
+http://n64-joystick-translator.googlecode.com/files/how_it_works.jpg
 
-= Details =
+== Translated Output State Machine ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The upward, downward, left, and right movements follow a simple state machine:
+
+http://n64-joystick-translator.googlecode.com/files/state_machine.jpg

@@ -1,4 +1,4 @@
-#summary Brief overview of the theory of operation
+#summary Brief overview of how the translator works
 
 = Theory of Operation =
 

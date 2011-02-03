@@ -1,5 +1,3 @@
-#sidebar TableOfContents
-
 #summary One-sentence summary of this page.
 
 = Introduction =
